@@ -7,7 +7,7 @@ mongoose.connect(`${config.get("MONGODB_URI")}/BegZone`)
     dbgr("Connected")
 })
 .catch((err)=>{
-    console.log(err)
+    dbgr(err)
 })
 
 
